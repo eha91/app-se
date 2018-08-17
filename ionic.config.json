@@ -1,0 +1,8 @@
+{
+  "name": "chatv1",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "b6d8f799"
+}
