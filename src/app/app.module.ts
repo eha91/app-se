@@ -12,7 +12,9 @@ import { IonicStorageModule } from '@ionic/storage';
 import { SocketIoModule, SocketIoConfig } from 'ng-socket-io';
 import { LoginPage } from '../pages/login/login';
 import { ChatPage } from '../pages/chat/chat';
-const config: SocketIoConfig = { url: 'http://10.34.180.150:3002', options: {} };
+const config: SocketIoConfig = { url: 'https://engine.aceleradordigitaldenegocios.com.mx', options: {
+  path: '/chat'
+}};
 
 @NgModule({
   declarations: [
